@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav a img {
+    width: 20pt;
+    height: 20pt;
+
+}
+
+
+.presentaciones {
+    background-color: black;
+    color: white;
+}
+
+
+.destacado-card {
+    margin-bottom: 20px;
+}
+
+#destacados {
+    background-color: black;
+}
+
+
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+
+
+#carouselExampleIndicators img{
+    width: 100%;
+    height: 1000px;
+
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.icon-background {
+    background-color: #00bcd4; 
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.icon-background i {
+    color: white;
+    font-size: 24px;
+}
+
+.bg-celeste {
+    background-color: #00bcd4 !important; 
+}
+
+.bg-celeste .card-body {
+    color: white; 
+}
+
+.btn-celeste {
+    background-color: #00bcd4 !important; 
+    color: white; 
+}
+
+.btn-celeste:hover {
+    background-color: #0097a7; 
+}
+
+
+
+
+.footer {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p{
+    font-size: 20pt;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 20pt;
+}
+
+
+
