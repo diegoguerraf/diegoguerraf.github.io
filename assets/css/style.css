@@ -1,146 +1,151 @@
+/* Estilos generales para el cuerpo de la página */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Fuente principal */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
 }
 
+/* Estilos para los enlaces en la barra de navegación */
 nav a {
-    font-size: 16px;
+    font-size: 16px; /* Tamaño de fuente */
 }
 
-
+/* Estilos para las imágenes dentro de los enlaces en la barra de navegación */
 nav a img {
-    width: 20pt;
-    height: 20pt;
-
+    width: 20pt; /* Ancho de la imagen */
+    height: 20pt; /* Altura de la imagen */
 }
 
+/* Estilos para los párrafos dentro de la sección "Destacados" */
 .destacados p{
-    font-size: 16px;
+    font-size: 16px; /* Tamaño de fuente */
 }
 
+/* Estilos para los párrafos dentro de la sección "Quienes Somos" */
 .quienessomos p {
-    font-size: 16px;
+    font-size: 16px; /* Tamaño de fuente */
 }
 
+/* Estilos para la barra de navegación */
 .navbar {
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out; /* Transición de color de fondo */
 }
 
+/* Estilos para la barra de navegación en estado transparente */
 .navbar-transparent {
-    background-color: transparent !important;
+    background-color: transparent !important; /* Fondo transparente */
 }
 
+/* Estilos para la barra de navegación cuando se ha hecho scroll */
 .navbar-scrolled {
-    background-color: black !important;
+    background-color: black !important; /* Color de fondo negro */
 }
 
+/* Estilos para el texto en la barra de navegación cuando se ha hecho scroll */
 .navbar-scrolled .navbar-brand,
 .navbar-scrolled .nav-link {
-    color: white !important;
+    color: white !important; /* Color del texto blanco */
 }
 
-
-
+/* Oculta la sección "Quienes Somos" en dispositivos con un ancho máximo de 768px */
 @media (max-width: 768px){
     #quienessomos{
         display: none;
     }
 }
 
+/* Ajusta el margen inferior de las tarjetas en dispositivos con un ancho máximo de 767.98px */
 @media (max-width: 767.98px) {
     .card {
         margin-bottom: 20px;
     }
 }
 
-
+/* Estilos para la sección de presentaciones */
 .presentaciones {
-    background-color: black;
-    color: white;
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
 }
 
-
+/* Estilos adicionales para las tarjetas destacadas */
 .destacado-card {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Margen inferior */
 }
 
+/* Estilos para la sección "Destacados" */
 #destacados {
-    background-color: black;
+    background-color: black; /* Fondo negro */
 }
 
-
-
+/* Ajustes para los controles de formulario */
 .form-control {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Margen inferior */
 }
 
-
-
+/* Estilos para las imágenes dentro del carrusel */
 #carouselExampleIndicators img{
-    width: 100%;
-    height: 1000px;
-
+    width: 100%; /* Ancho completo */
+    height: 1000px; /* Altura fija */
 }
 
+/* Estilos para la línea horizontal */
 hr {
-    border: none;
-    height: 1px;
-    background-color: #ccc; 
-    margin: 0; 
-    padding: 0; 
+    border: none; /* Sin borde */
+    height: 1px; /* Altura */
+    background-color: #ccc;  /* Color de fondo */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
 }
 
+/* Estilos para el fondo y texto de los íconos */
 .icon-background {
-    background-color: #00bcd4; 
-    width: 100%;
-    padding: 15px;
-    text-align: center;
+    background-color: #00bcd4; /* Fondo celeste */
+    width: 100%; /* Ancho completo */
+    padding: 15px; /* Relleno */
+    text-align: center; /* Alineación del texto */
 }
 
+/* Estilos para los íconos dentro del fondo celeste */
 .icon-background i {
-    color: white;
-    font-size: 24px;
+    color: white; /* Color del texto blanco */
+    font-size: 24px; /* Tamaño del ícono */
 }
 
+/* Estilos adicionales para las tarjetas con fondo celeste */
 .bg-celeste {
-    background-color: #00bcd4 !important; 
+    background-color: #00bcd4 !important; /* Fondo celeste */
 }
 
+/* Estilos para el texto dentro del cuerpo de la tarjeta con fondo celeste */
 .bg-celeste .card-body {
-    color: white; 
+    color: white; /* Color del texto blanco */
 }
 
+/* Estilos para el botón celeste */
 .btn-celeste {
-    background-color: #00bcd4 !important; 
-    color: white; 
+    background-color: #00bcd4 !important; /* Fondo celeste */
+    color: white; /* Color del texto blanco */
 }
 
+/* Estilos para el botón celeste cuando se pasa el cursor */
 .btn-celeste:hover {
-    background-color: #0097a7; 
+    background-color: #0097a7; /* Color del fondo al pasar el cursor */
 }
 
-
-
-
+/* Estilos para el footer */
 .footer {
-    background-color: #00bcd4;
-    color: #fff;
-    padding: 20px 0;
+    background-color: #00bcd4; /* Fondo celeste */
+    color: #fff; /* Color del texto blanco */
+    padding: 20px 0; /* Relleno superior e inferior */
 }
 
+/* Estilos para el texto dentro del footer */
 footer p{
-    font-size: 20pt;
+    font-size: 20pt; /* Tamaño de fuente */
 }
 
+/* Estilos para los enlaces dentro del footer */
 .footer a {
-    color: #fff;
-    font-size: 20pt;
+    color: #fff; /* Color del texto blanco */
+    font-size: 20pt; /* Tamaño de fuente */
 }
-
-.navbar.scrolled {
-    background-color: #00bcd4 !important;
-    transition: background-color 0.3s ease-in-out;
-}
-
-
