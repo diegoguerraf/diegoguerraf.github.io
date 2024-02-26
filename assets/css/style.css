@@ -23,6 +23,36 @@ nav a img {
     font-size: 16px;
 }
 
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+}
+
+.navbar-scrolled {
+    background-color: black !important;
+}
+
+.navbar-scrolled .navbar-brand,
+.navbar-scrolled .nav-link {
+    color: white !important;
+}
+
+
+
+@media (max-width: 768px){
+    #quienessomos{
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
 
 
 .presentaciones {
@@ -108,5 +138,9 @@ footer p{
     font-size: 20pt;
 }
 
+.navbar.scrolled {
+    background-color: #00bcd4 !important;
+    transition: background-color 0.3s ease-in-out;
+}
 
 
