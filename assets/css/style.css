@@ -47,6 +47,7 @@ nav a img {
     color: white !important; /* Color del texto blanco */
 }
 
+
 /* Oculta la sección "Quienes Somos" en dispositivos con un ancho máximo de 768px */
 @media (max-width: 768px){
     #quienessomos{
